@@ -1,3 +1,4 @@
 def square_array(array)
-  ([1, 2, 3]).each(*(array))
+  numbers = [1, 2, 3]
+  numbers.each(*(array))
 end
